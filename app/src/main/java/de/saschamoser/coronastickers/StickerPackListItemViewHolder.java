@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package de.saschamoser.coronaicons;
+package de.saschamoser.coronastickers;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import de.saschamoser.coronaicons.R;
+import de.saschamoser.coronastickers.R;
 
 class StickerPackListItemViewHolder extends RecyclerView.ViewHolder {
 

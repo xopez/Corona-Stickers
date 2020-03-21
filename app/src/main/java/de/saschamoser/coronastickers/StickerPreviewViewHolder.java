@@ -6,13 +6,13 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package de.saschamoser.coronaicons;
+package de.saschamoser.coronastickers;
 
 import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import de.saschamoser.coronaicons.R;
+import de.saschamoser.coronastickers.R;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 class StickerPreviewViewHolder extends RecyclerView.ViewHolder {

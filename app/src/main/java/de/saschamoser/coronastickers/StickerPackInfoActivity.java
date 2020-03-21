@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package de.saschamoser.coronaicons;
+package de.saschamoser.coronastickers;
 
 import android.content.Intent;
 import android.graphics.Rect;
@@ -24,7 +24,7 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.IdRes;
 import androidx.core.view.ViewCompat;
 
-import de.saschamoser.coronaicons.R;
+import de.saschamoser.coronastickers.R;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;

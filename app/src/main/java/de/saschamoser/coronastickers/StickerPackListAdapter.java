@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package de.saschamoser.coronaicons;
+package de.saschamoser.coronastickers;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,7 +23,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import de.saschamoser.coronaicons.R;
+import de.saschamoser.coronastickers.R;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.List;

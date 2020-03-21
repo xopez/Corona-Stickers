@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="de.saschamoser.coronaicons">
+    package="de.saschamoser.coronastickers">
 
     <application
-        android:name="de.saschamoser.coronaicons.StickerApplication"
+        android:name="de.saschamoser.coronastickers.StickerApplication"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
@@ -12,33 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="de.saschamoser.coronaicons.EntryActivity">
+        <activity android:name="de.saschamoser.coronastickers.EntryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="de.saschamoser.coronaicons.StickerPackListActivity" />
+        <activity android:name="de.saschamoser.coronastickers.StickerPackListActivity" />
         <activity
-            android:name="de.saschamoser.coronaicons.StickerPackDetailsActivity"
-            android:parentActivityName="de.saschamoser.coronaicons.StickerPackListActivity"
+            android:name="de.saschamoser.coronastickers.StickerPackDetailsActivity"
+            android:parentActivityName="de.saschamoser.coronastickers.StickerPackListActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.saschamoser.coronaicons.StickerPackListActivity" />
+                android:value="de.saschamoser.coronastickers.StickerPackListActivity" />
         </activity>
         <activity
-            android:name="de.saschamoser.coronaicons.StickerPackInfoActivity"
+            android:name="de.saschamoser.coronastickers.StickerPackInfoActivity"
             android:label="@string/title_activity_sticker_pack_info"
-            android:parentActivityName="de.saschamoser.coronaicons.StickerPackDetailsActivity"
+            android:parentActivityName="de.saschamoser.coronastickers.StickerPackDetailsActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.saschamoser.coronaicons.StickerPackDetailsActivity" />
+                android:value="de.saschamoser.coronastickers.StickerPackDetailsActivity" />
         </activity>
 
         <provider
-            android:name="de.saschamoser.coronaicons.StickerContentProvider"
+            android:name="de.saschamoser.coronastickers.StickerContentProvider"
             android:authorities="${contentProviderAuthority}"
             android:enabled="true"
             android:exported="true"

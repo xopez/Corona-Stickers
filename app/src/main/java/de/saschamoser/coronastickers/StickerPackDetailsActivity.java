@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package de.saschamoser.coronaicons;
+package de.saschamoser.coronastickers;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -24,7 +24,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import de.saschamoser.coronaicons.R;
+import de.saschamoser.coronastickers.R;
 
 import java.lang.ref.WeakReference;
 

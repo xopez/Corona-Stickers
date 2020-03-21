@@ -3,8 +3,8 @@
   "ios_app_store_link": "",
   "sticker_packs": [
     {
-      "identifier": "Coronavirus Flat 1",
-      "name": "Coronavirus Flat 1",
+      "identifier": "Coronavirus Flat Stickers 1",
+      "name": "Coronavirus Flat Stickers 1",
       "publisher": "Sascha Moser",
       "tray_image_file": "icon.png",
       "image_data_version":"1",
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "identifier": "Coronavirus Flat 2",
-      "name": "Coronavirus Flat 2",
+      "identifier": "Coronavirus Flat Stickers 2",
+      "name": "Coronavirus Flat Stickers 2",
       "publisher": "Sascha Moser",
       "tray_image_file": "icon.png",
       "image_data_version":"1",
