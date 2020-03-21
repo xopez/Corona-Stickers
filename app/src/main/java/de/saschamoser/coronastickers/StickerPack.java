@@ -22,6 +22,7 @@ class StickerPack implements Parcelable {
     final String publisherWebsite;
     final String privacyPolicyWebsite;
     final String licenseAgreementWebsite;
+    final String copyright;
     final String imageDataVersion;
     final boolean avoidCache;
 
@@ -31,7 +32,7 @@ class StickerPack implements Parcelable {
     String androidPlayStoreLink;
     private boolean isWhitelisted;
 
-    StickerPack(String identifier, String name, String publisher, String trayImageFile, String publisherEmail, String publisherWebsite, String privacyPolicyWebsite, String licenseAgreementWebsite, String imageDataVersion, boolean avoidCache) {
+    StickerPack(String identifier, String name, String publisher, String trayImageFile, String publisherEmail, String publisherWebsite, String privacyPolicyWebsite, String licenseAgreementWebsite, String copyright, String imageDataVersion, boolean avoidCache) {
         this.identifier = identifier;
         this.name = name;
         this.publisher = publisher;
@@ -40,6 +41,7 @@ class StickerPack implements Parcelable {
         this.publisherWebsite = publisherWebsite;
         this.privacyPolicyWebsite = privacyPolicyWebsite;
         this.licenseAgreementWebsite = licenseAgreementWebsite;
+        this.copyright = copyright;
         this.imageDataVersion = imageDataVersion;
         this.avoidCache = avoidCache;
     }
@@ -61,6 +63,7 @@ class StickerPack implements Parcelable {
         publisherWebsite = in.readString();
         privacyPolicyWebsite = in.readString();
         licenseAgreementWebsite = in.readString();
+        copyright = in.readString();
         iosAppStoreLink = in.readString();
         stickers = in.createTypedArrayList(Sticker.CREATOR);
         totalSize = in.readLong();
@@ -121,6 +124,7 @@ class StickerPack implements Parcelable {
         dest.writeString(publisherWebsite);
         dest.writeString(privacyPolicyWebsite);
         dest.writeString(licenseAgreementWebsite);
+        dest.writeString(copyright);
         dest.writeString(iosAppStoreLink);
         dest.writeTypedList(stickers);
         dest.writeLong(totalSize);

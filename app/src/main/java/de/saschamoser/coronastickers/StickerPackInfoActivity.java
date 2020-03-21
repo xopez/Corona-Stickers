@@ -43,6 +43,7 @@ public class StickerPackInfoActivity extends BaseActivity {
         final String email = getIntent().getStringExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_EMAIL);
         final String privacyPolicy = getIntent().getStringExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_PRIVACY_POLICY);
         final String licenseAgreement = getIntent().getStringExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_LICENSE_AGREEMENT);
+        final String copyright = getIntent().getStringExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_COPYRIGHT);
         final TextView trayIcon = findViewById(R.id.tray_icon);
         try {
             final InputStream inputStream = getContentResolver().openInputStream(Uri.parse(trayIconUriString));
@@ -74,6 +75,8 @@ public class StickerPackInfoActivity extends BaseActivity {
         setupTextView(privacyPolicy, R.id.privacy_policy);
 
         setupTextView(licenseAgreement, R.id.license_agreement);
+
+        setupTextView(copyright, R.id.copyright);
     }
 
     private void setupTextView(String website, @IdRes int textViewResId) {

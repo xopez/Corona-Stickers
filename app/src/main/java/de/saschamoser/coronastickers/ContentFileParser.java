@@ -75,6 +75,7 @@ class ContentFileParser {
         String publisherWebsite = null;
         String privacyPolicyWebsite = null;
         String licenseAgreementWebsite = null;
+        String copyright = null;
         String imageDataVersion = "";
         boolean avoidCache = false;
         List<Sticker> stickerList = null;
@@ -104,6 +105,9 @@ class ContentFileParser {
                     break;
                 case "license_agreement_website":
                     licenseAgreementWebsite = reader.nextString();
+                    break;
+                case "copyright":
+                    copyright = reader.nextString();
                     break;
                 case "stickers":
                     stickerList = readStickers(reader);
@@ -140,7 +144,7 @@ class ContentFileParser {
             throw new IllegalStateException("image_data_version should not be empty");
         }
         reader.endObject();
-        final StickerPack stickerPack = new StickerPack(identifier, name, publisher, trayImageFile, publisherEmail, publisherWebsite, privacyPolicyWebsite, licenseAgreementWebsite, imageDataVersion, avoidCache);
+        final StickerPack stickerPack = new StickerPack(identifier, name, publisher, trayImageFile, publisherEmail, publisherWebsite, privacyPolicyWebsite, licenseAgreementWebsite, copyright, imageDataVersion, avoidCache);
         stickerPack.setStickers(stickerList);
         return stickerPack;
     }

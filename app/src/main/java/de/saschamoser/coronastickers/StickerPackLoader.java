@@ -27,6 +27,7 @@ import static de.saschamoser.coronastickers.StickerContentProvider.ANDROID_APP_D
 import static de.saschamoser.coronastickers.StickerContentProvider.AVOID_CACHE;
 import static de.saschamoser.coronastickers.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
 import static de.saschamoser.coronastickers.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
+import static de.saschamoser.coronastickers.StickerContentProvider.COPYRIGHT;
 import static de.saschamoser.coronastickers.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
 import static de.saschamoser.coronastickers.StickerContentProvider.PUBLISHER_EMAIL;
 import static de.saschamoser.coronastickers.StickerContentProvider.PUBLISHER_WEBSITE;
@@ -102,10 +103,11 @@ class StickerPackLoader {
             final String publisherEmail = cursor.getString(cursor.getColumnIndexOrThrow(PUBLISHER_EMAIL));
             final String publisherWebsite = cursor.getString(cursor.getColumnIndexOrThrow(PUBLISHER_WEBSITE));
             final String privacyPolicyWebsite = cursor.getString(cursor.getColumnIndexOrThrow(PRIVACY_POLICY_WEBSITE));
+            final String copyright = cursor.getString(cursor.getColumnIndexOrThrow(COPYRIGHT));
             final String licenseAgreementWebsite = cursor.getString(cursor.getColumnIndexOrThrow(LICENSE_AGREENMENT_WEBSITE));
             final String imageDataVersion = cursor.getString(cursor.getColumnIndexOrThrow(IMAGE_DATA_VERSION));
             final boolean avoidCache = cursor.getShort(cursor.getColumnIndexOrThrow(AVOID_CACHE)) > 0;
-            final StickerPack stickerPack = new StickerPack(identifier, name, publisher, trayImage, publisherEmail, publisherWebsite, privacyPolicyWebsite, licenseAgreementWebsite, imageDataVersion, avoidCache);
+            final StickerPack stickerPack = new StickerPack(identifier, name, publisher, trayImage, publisherEmail, publisherWebsite, privacyPolicyWebsite, licenseAgreementWebsite, copyright, imageDataVersion, avoidCache);
             stickerPack.setAndroidPlayStoreLink(androidPlayStoreLink);
             stickerPack.setIosAppStoreLink(iosAppLink);
             stickerPackList.add(stickerPack);
