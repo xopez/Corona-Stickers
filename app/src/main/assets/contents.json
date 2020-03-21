@@ -1,0 +1,142 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "Coronavirus Flat 1",
+      "name": "Coronavirus Flat 1",
+      "publisher": "Sascha Moser",
+      "tray_image_file": "icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"info@saschamoser.de",
+      "publisher_website": "https://saschamoser.de",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "5728175-batcarriercoronavirusfluvirus.webp"
+        },
+        {
+          "image_file": "5728176-animalavoidbatdonteatingno.webp"
+        },
+        {
+          "image_file": "5728177-chinachinesecountryflagstarswuhan.webp"
+        },
+        {
+          "image_file": "5728178-cleaningdoorhygieneknobobject.webp"
+        },
+        {
+          "image_file": "5728179-connectionglobalroutespreadvirus.webp"
+        },
+        {
+          "image_file": "5728180-antiviruscapsulecovid-19medicalpillvirus.webp"
+        },
+        {
+          "image_file": "5728181-antivirusclothingcovid-19dressmaskprotective.webp"
+        },
+        {
+          "image_file": "5728182-chillcoldcovid-19feverflushiveringsick.webp"
+        },
+        {
+          "image_file": "5728183-cookfoodheathotpotwell.webp"
+        },
+        {
+          "image_file": "5728184-coronaviruscovid-19fluinfluenzamerssarsvirus.webp"
+        },
+        {
+          "image_file": "5728185-avoidcontactcovid-19crowdnopeople.webp"
+        },
+        {
+          "image_file": "5728186-bowelconstipationdiarrheairritablesick.webp"
+        },
+        {
+          "image_file": "5728187-coffincoronaviruscovid-19deathinfectionskull.webp"
+        },
+        {
+          "image_file": "5728188-dnageneticsgenomicrnastrandvirus.webp"
+        },
+        {
+          "image_file": "5728189-adviseavatardoctorsuggestionwarning.webp"
+        },
+        {
+          "image_file": "5728190-covid-19feverhighsicksweattemperature.webp"
+        },
+        {
+          "image_file": "5728191-cleanhandshygienesoapwashing.webp"
+        },
+        {
+          "image_file": "5728192-headheadachemigrainepainsevereshock.webp"
+        }
+      ]
+    },
+    {
+      "identifier": "Coronavirus Flat 2",
+      "name": "Coronavirus Flat 2",
+      "publisher": "Sascha Moser",
+      "tray_image_file": "icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"info@saschamoser.de",
+      "publisher_website": "https://saschamoser.de",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "5728193-covid-19doctorflumaskprotectionwearing.webp"
+        },
+        {
+          "image_file": "5728194-covid-19homehygienepreventprotectionstay.webp"
+        },
+        {
+          "image_file": "5728195-buildinghealthcarehospitalmedicalnursing.webp"
+        },
+        {
+          "image_file": "5728196-appfollowmobilenewsread.webp"
+        },
+        {
+          "image_file": "5728197-coldfeverflunosesicksnot.webp"
+        },
+        {
+          "image_file": "5728198-bronchitisinflamationinfluenzalungpneumonia.webp"
+        },
+        {
+          "image_file": "5728199-avoideatmeatnoraw.webp"
+        },
+        {
+          "image_file": "5728200-convalescencerecoveryrecuperationresiliencewinner.webp"
+        },
+        {
+          "image_file": "5728201-coughcovid-19flusicksneezingsnifflingwheezing.webp"
+        },
+        {
+          "image_file": "5728202-coronaviruscovid-19medicalmicrobiologyresearchsciencevirus.webp"
+        },
+        {
+          "image_file": "5728203-checkcovid-19fluheatscantemperaturethermometer.webp"
+        },
+        {
+          "image_file": "5728204-chucknauseapukethrowupvomiting.webp"
+        },
+        {
+          "image_file": "5728205-coronaviruscovid-19infectiontouristtransmissiontravelvirus.webp"
+        },
+        {
+          "image_file": "5728206-coronaviruscovid-19fluprotectionvaccinevirus.webp"
+        },
+        {
+          "image_file": "5728207-coronaviruscovid-19hosthumanintectviral.webp"
+        },
+        {
+          "image_file": "5728208-flightroutetourismtransmittravel.webp"
+        },
+        {
+          "image_file": "5728209-communicationcovid-19engagementhumaninfectiontransfertransmission.webp"
+        },
+        {
+          "image_file": "5728210-boxfacialnapkinpapertissue.webp"
+        }
+      ]
+    }
+  ]
+}
