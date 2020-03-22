@@ -4,3 +4,42 @@
     <a href="https://github.com/xopez/Corona-Stickers/releases"><img src="https://img.shields.io/github/downloads/xopez/Corona-Stickers/total?label=Downloads&labelColor=30363D&color=2FBF50" alt="Downloads"></a>
     <a href="https://github.com/xopez/Corona-Stickers/graphs/contributors"><img src="https://img.shields.io/github/contributors/xopez/Corona-Stickers?label=Contributors&labelColor=30363D&color=2FBF50" alt="Contributors"></a>
 </p>
+
+## Table of Contents
+* [About the project](#about-the-project)
+* [Getting Started](#getting-started)
+    * [Requirements](#requirements)
+* [Contributing](#contributing)
+* [Versioning](#versioning)
+* [Built With](#built-with)
+* [Authors](#authors)
+* [License](#license)
+
+## About the project
+*Coming soon*
+
+## Getting Started
+In order for the software to be used properly, all [requirements](#requirements) must be met.
+
+### Requirements
+* WhatsApp
+* Android 5 or higher
+
+## Contributing
+There are many ways to help this open source project. Write tutorials, improve documentation, share bugs with others, make feature requests, or just write code. We look forward to every contribution.
+
+For more information and our guidelines, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## Versioning
+We use [SemVer](http://semver.org/) for versioning. For available versions, see the [tags on this repository](https://github.com/xopez/Corona-Stickers/tags). 
+
+## Built With
+* [discord.py](https://github.com/Rapptz/discord.py) - An API wrapper for Discord written in Python.
+
+## Authors
+* **Sascha Moser** - *Main development* - [xopez](https://github.com/xopez)
+
+See also the list of [contributors](https://github.com/xopez/Corona-Stickers/graphs/contributors) who participated in this project.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
