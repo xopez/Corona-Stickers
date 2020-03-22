@@ -1,0 +1,2 @@
+- New versioning
+- Renamed coronaicons → coronastickers
