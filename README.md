@@ -34,7 +34,8 @@ For more information and our guidelines, please refer to the [CONTRIBUTING.md](C
 We use [SemVer](http://semver.org/) for versioning. For available versions, see the [tags on this repository](https://github.com/xopez/Corona-Stickers/tags). 
 
 ## Built With
-* [discord.py](https://github.com/Rapptz/discord.py) - An API wrapper for Discord written in Python.
+* [Coronavirus Flat Icons](https://www.iconfinder.com/iconsets/coronavirus-flat) - Icons from [Becris](https://www.iconfinder.com/becris)
+* [WhatsApp Stickers](https://github.com/WhatsApp/stickers) - Example App for WhatsApp Stickers
 
 ## Authors
 * **Sascha Moser** - *Main development* - [xopez](https://github.com/xopez)
