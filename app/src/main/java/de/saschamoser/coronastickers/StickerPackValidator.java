@@ -27,7 +27,8 @@ import java.util.List;
 
 class StickerPackValidator {
     private static final int STICKER_FILE_SIZE_LIMIT_KB = 100;
-    private static final int EMOJI_LIMIT = 3;
+    static final int EMOJI_MAX_LIMIT = 3;
+    private static final int EMOJI_MIN_LIMIT = 1;
     private static final int IMAGE_HEIGHT = 512;
     private static final int IMAGE_WIDTH = 512;
     private static final int STICKER_SIZE_MIN = 3;
@@ -116,7 +117,7 @@ class StickerPackValidator {
     }
 
     private static void validateSticker(@NonNull Context context, @NonNull final String identifier, @NonNull final Sticker sticker) throws IllegalStateException {
-        if (sticker.emojis.size() > EMOJI_LIMIT) {
+        if (sticker.emojis.size() > EMOJI_MAX_LIMIT) {
             throw new IllegalStateException("emoji count exceed limit, sticker pack identifier:" + identifier + ", filename:" + sticker.imageFileName);
         }
         if (TextUtils.isEmpty(sticker.imageFileName)) {

@@ -21,8 +21,6 @@ import java.util.List;
 
 class ContentFileParser {
 
-    private static final int LIMIT_EMOJI_COUNT = 3;
-
     @NonNull
     static List<StickerPack> parseStickerPacks(@NonNull InputStream contentsInputStream) throws IOException, IllegalStateException {
         try (JsonReader reader = new JsonReader(new InputStreamReader(contentsInputStream))) {
@@ -157,7 +155,7 @@ class ContentFileParser {
         while (reader.hasNext()) {
             reader.beginObject();
             String imageFile = null;
-            List<String> emojis = new ArrayList<>(LIMIT_EMOJI_COUNT);
+            List<String> emojis = new ArrayList<>(StickerPackValidator.EMOJI_MAX_LIMIT);
             while (reader.hasNext()) {
                 final String key = reader.nextName();
                 if ("image_file".equals(key)) {
